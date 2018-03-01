@@ -1,35 +1,53 @@
 var test = "Hello, world";
 
-var storyText = "I enjoy long, " +
-VAR +
-"walks on the beach, getting " +
-VAR +
-"in the rain and serendipitous encounters with " +
-VAR +
+var blank1 = prompt("adjective");
+var blank2 = prompt("verb ending in 'ed'");
+var blank3 = prompt("noun (plural)");
+var blank4 = prompt("liquid");
+var blank5 = prompt("noun (plural)");
+var blank6 = prompt("famous person");
+var blank7 = prompt("place");
+var blank8 = prompt("occupation");
+var blank9 = prompt("noun");
+var blank10 = prompt("nationality");
+var blank11 = prompt("female celebrity");
+var blank12 = prompt("noun");
+var blank13 = prompt("female friend");
+var blank14 = prompt("noun (plural)");
+var blank15 = prompt("number");
+var blank16 = prompt("adjective");
+
+var storyText = "<p>I enjoy long, " +
+blank1 +
+" walks on the beach, getting " +
+blank2 +
+" in the rain and serendipitous encounters with " +
+blank3 +
 ". I really like piña coladas mixed with " +
-VAR +
+blank4 +
 ", and romantic, candle-lit " +
-VAR +
+blank5 +
 ". I am well-read from Dr. Seuss to " +
-VAR +
+blank6 +
 ". I travel frequently, especially to " +
-VAR +
+blank7 +
 ", when I am not busy with work. (I am a " +
-VAR +
+blank8 +
 ".)  I am looking for " +
-VAR +
+blank9 +
 " and beauty in the form of a " +
-VAR +
+blank10 +
 " goddess. She should have the physique of " +
-VAR +
+blank11 +
 " and the " +
-VAR +
+blank12 +
 " of " +
-VAR + ". I would prefer if she knew how to cook, clean, and wash my " +
-VAR +
+blank13 +
+". I would prefer if she knew how to cook, clean, and wash my " +
+blank14 +
 ". I know I’m not very attractive in my picture, but it was taken " +
-VAR +
-" days ago, and I have since become more " + 
-VAR +
-".";
-document.write(test);
+blank15 +
+" days ago, and I have since become more " +
+blank16 +
+".</p>";
+document.write(storyText);
